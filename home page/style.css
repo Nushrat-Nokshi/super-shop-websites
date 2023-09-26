@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1000px; 
+    margin: 0 auto;
+
+}
+
+.header {
+    padding: 15px 0;
+    background: #d1cfcf;
+}
+
+.logo {
+    color: #000000;
+    font-family: "Redressed";
+    font-size: 25px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu li a {
+    color:#720f0f;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.hero-card {
+    margin: 50px 0;
+    border: 1px solid #942525;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.hero-card img {
+    width: 980px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.hero-card h2 {
+    text-align: center;
+    color: #050505;
+    font-family: "Redressed";
+    font-weight: 500;
+    margin: 10px 0 5px;
+}
+
+.location-cards {
+    padding-bottom: 50px;
+}
+
+.location-card {
+    border: 1px solid #8d8c8c;
+    padding: 5px;
+    width: calc(33.3% - 10px);
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+
+.location-card.first,
+.location-card.second {
+    margin-right: 15px;
+}
+
+.location-card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.location-info {
+    padding: 15px 10px;
+}
+
+.location-card h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #880a0a;
+    font-family: "Redressed";
+    font-weight: 500;
+    margin: 5px 0 15px;
+}
+
+.location-card p {
+    color: rgb(68, 68, 68);
+    text-align: justify;
+    font-size: 17px;
+}
+
+.location-card .btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.location-card a {
+    display: inline-block;
+    text-decoration: none;
+    background: #ac0000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: rgb(194, 135, 7);
+    padding: 24px;
+}
+.slider {
+    width: 100%; 
+    margin: 0 auto; 
+    overflow: hidden; } 
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out; } 
+.slide { 
+        min-width: 100%;
+        overflow: hidden; } 
+.slide img { 
+    width: 100%; 
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px; 
+}
+.footer{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255) ;
+    background-color: #b8b8b8;
+    display: block;
+}

@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1000px; 
+    margin: 0 auto;
+
+} 
+
+.header {
+    padding: 15px 0;
+    background: #d1cfcf;
+}
+
+.logo {
+    color: #000000;
+    font-family: "Redressed";
+    font-size: 25px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu li a {
+    color:#720f0f;
+    font-size: 17px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(194, 135, 7);
+    padding: 24px;
+}
+
+.card {
+    width: 299px;
+    height: 370px;
+    background: #fff;
+    border: 1px solid rgb(148, 148, 148);
+    margin: 10px;
+    box-shadow:2px 2px 2px #666;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.card-body {
+    padding: 5px;
+}
+/* 320 */
+
+.card img{
+    width: 290px;
+    height: 190px;
+    border-radius: 5px;
+    
+}
+
+.card .title {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.card p {
+    color: rgb(73, 73, 73);
+    margin-bottom: 2px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    background: #0358f7;
+    padding: 10px 20px;
+    margin-bottom: 1px;
+    display: inline-flex;
+    border: solid rgba(128, 127, 127, 0.459);
+    border-radius: 8px;
+    box-shadow:2px 2px 2px #666;
+}
+
+.price {
+    color: grey;
+    font-size: 15px;
+}
+
+section{
+    margin: 20px;
+}
+
+/* color: grey; */
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
